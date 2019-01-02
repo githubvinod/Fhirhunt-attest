@@ -1,0 +1,27 @@
+baseURL = "/"
+Site = "/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "News"
+theme = "aether"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+[params]
+  themeVariant = "netspective"
+  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
+  description = "Documentation for Hugo Learn Theme"
+  author = "Mathieu Cornic"
+  showVisitedLinks = true
+  canonifyurls = true
+  
+
+
+ 
+
+ 
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+  
